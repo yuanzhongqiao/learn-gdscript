@@ -1,68 +1,42 @@
-# Learn GDScript From Zero
-
-Learn GDScript From Zero is a free and open-source app for absolute beginners to learn to program with Godot's GDScript language.
-
-It's a beginner-friendly programming course.
-
-This app is the free part of a larger paid course to become a game developer: [Learn to Code From Zero, with Godot](https://gdquest.mavenseed.com/courses/learn-to-code-from-zero-with-godot).
-
-The series is compatible with Godot 4.
-
-## How to run the app
-
-You can run the app online here: https://gdquest.github.io/learn-gdscript/
-
-Also, you can download the app for Windows, macOS, and Linux on Itch.io: https://gdquest.itch.io/learn-godot-gdscript
-
-The desktop version can offer better performance and crisper text than the web version.
-
-## Feedback, requests, and discussions
-
-We value feedback and bug reports. We will also consider feature requests, especially if they fit our vision and we feel they benefit programming beginners.
-
-When participating in discussions, please respect our [Kind Communication Guidelines](https://www.gdquest.com/docs/guidelines/best-practices/communication/).
-
-In the [Discussions](https://github.com/GDQuest/learn-gdscript/discussions) tab, you can suggest and upvote ideas for new features, or **ask other community members for help**.
-
-**To report bugs, typos,** and discuss existing tasks, please head to the [Issues](issues) tab instead.
-
-## How to contribute
-
-Contributions are welcome if you feel like giving a hand.
-
-To contribute, you need to follow a couple of guidelines.
-
-First, we ultimately decide on the app's design and features or changes. Before you make a change, please ensure there's an existing [Issues](https://github.com/GDQuest/learn-gdscript/issues) for it, and please let us know you're working on it. 
-
-Here's our GDScript code style guide: [GDQuest GDScript style guide](https://www.gdquest.com/docs/guidelines/best-practices/godot-gdscript/).
-
-Please always start pull request titles and commit messages with one of the following prefixes:
-
-- `feat:` for new features.
-- `improvement:` for an improvement to an existing feature.
-- `fix:` for a bug fix.
-- `docs:` for changes to the project's documentation.
-- `build:` for anything related to GitHub actions.
-- `content:` for changes to lesson and helper text, be it correcting typos, adding new paragraphs, and more.
-
-### How we work
-
-We may directly edit your code to merge it faster when reviewing your changes. This is something we do in our team, too, for efficiency. We may also request changes.
-
-Finally, if some contribution doesn't work for us, we _may_ close the pull request. 
-
-This happens primarily in two cases:
-
-- The changes don't answer an issue we created or vetted.
-- The pull request's author didn't make the requested changes for over a month.
-
-### Importing the app in Godot to contribute
-
-**Warning: this is not the recommended way to run the app for learning. Use this only to study the code and contribute.**
-
-You can also run the project straight in Godot by cloning the repository and importing the folder into the engine.
-
-We only recommend importing the app in Godot to study its source code or [contribute](#how-to-contribute). You will need **Godot 3.5 LTS** or a more recent stable version of Godot 3. Otherwise, it won't run.
-
-Please note that practice errors will trigger the debugger and pause execution in Godot, unlike when using the release build. That's normal, and you'll need to continue execution by pressing <kbd>F7</kbd> when that happens.
-
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="18333406" _msthash="347">从零开始学习 GDScript</h1><a id="user-content-learn-gdscript-from-zero" class="anchor" aria-label="永久链接：从零开始学习 GDScript" href="#learn-gdscript-from-zero" _mstaria-label="888017" _msthash="348"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="537561050" _msthash="349">Learn GDScript From Zero 是一款免费的开源应用程序，供绝对初学者学习使用 Godot 的 GDScript 语言进行编程。</p>
+<p dir="auto" _msttexthash="77368109" _msthash="350">这是一门适合初学者的编程课程。</p>
+<p dir="auto" _msttexthash="321730526" _msthash="351">此应用程序是成为游戏开发人员的大型付费课程的免费部分：<a href="https://gdquest.mavenseed.com/courses/learn-to-code-from-zero-with-godot" rel="nofollow" _istranslated="1">Learn to Code From Zero，与 Godot 一起</a>。</p>
+<p dir="auto" _msttexthash="24881129" _msthash="352">该系列与 Godot 4 兼容。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="30867551" _msthash="353">如何运行应用程序</h2><a id="user-content-how-to-run-the-app" class="anchor" aria-label="永久链接：如何运行应用程序" href="#how-to-run-the-app" _mstaria-label="609869" _msthash="354"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="97961851" _msthash="355">您可以在此处在线运行该应用程序： <a href="https://gdquest.github.io/learn-gdscript/" rel="nofollow" _istranslated="1">https://gdquest.github.io/learn-gdscript/</a></p>
+<p dir="auto" _msttexthash="239685589" _msthash="356">此外，您还可以在 Itch.io 上下载适用于 Windows、macOS 和 Linux 的应用程序：<a href="https://gdquest.itch.io/learn-godot-gdscript" rel="nofollow" _istranslated="1">https://gdquest.itch.io/learn-godot-gdscript</a></p>
+<p dir="auto" _msttexthash="163609186" _msthash="357">桌面版本可以提供比 Web 版本更好的性能和更清晰的文本。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="32027476" _msthash="358">反馈、请求和讨论</h2><a id="user-content-feedback-requests-and-discussions" class="anchor" aria-label="固定链接：反馈、请求和讨论" href="#feedback-requests-and-discussions" _mstaria-label="1550172" _msthash="359"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="661835109" _msthash="360">我们重视反馈和错误报告。我们还将考虑功能请求，特别是如果它们符合我们的愿景，并且我们认为它们对编程初学者有益。</p>
+<p dir="auto" _msttexthash="109162391" _msthash="361">参与讨论时，请遵守我们的 <a href="https://www.gdquest.com/docs/guidelines/best-practices/communication/" rel="nofollow" _istranslated="1">善意沟通指南</a>。</p>
+<p dir="auto" _msttexthash="499504902" _msthash="362">在 <a href="https://github.com/GDQuest/learn-gdscript/discussions" _istranslated="1">Discussions （讨论</a>） 选项卡中，您可以对新功能提出建议和投票，或<strong _istranslated="1">向其他社区成员寻求帮助</strong>。</p>
+<p dir="auto" _msttexthash="190819070" _msthash="363"><strong _istranslated="1">要报告错误、拼写错误并</strong>讨论现有任务，请前往 <a href="/GDQuest/learn-gdscript/blob/main/issues" _istranslated="1">Issues</a> 选项卡。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12257583" _msthash="364">如何贡献</h2><a id="user-content-how-to-contribute" class="anchor" aria-label="永久链接：如何贡献" href="#how-to-contribute" _mstaria-label="653081" _msthash="365"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="91566735" _msthash="366">如果您愿意伸出援手，欢迎做出贡献。</p>
+<p dir="auto" _msttexthash="82420728" _msthash="367">要做出贡献，您需要遵循一些准则。</p>
+<p dir="auto" _msttexthash="634652811" _msthash="368">首先，我们最终决定应用程序的设计和功能或更改。在进行更改之前，请确保存在 <a href="https://github.com/GDQuest/learn-gdscript/issues" _istranslated="1">Issues</a> ，并请告诉我们你正在努力处理它。</p>
+<p dir="auto" _msttexthash="157101906" _msthash="369">这是我们的 GDScript 代码风格指南：<a href="https://www.gdquest.com/docs/guidelines/best-practices/godot-gdscript/" rel="nofollow" _istranslated="1">GDQuest GDScript 风格指南</a>。</p>
+<p dir="auto" _msttexthash="175138119" _msthash="370">请始终使用以下前缀之一开始拉取请求标题和提交消息：</p>
+<ul dir="auto">
+<li><code>feat:</code><font _mstmutation="1" _msttexthash="21492796" _msthash="371">以获取新功能。</font></li>
+<li><code>improvement:</code><font _mstmutation="1" _msttexthash="27580514" _msthash="372">以改进现有功能。</font></li>
+<li><code>fix:</code><font _mstmutation="1" _msttexthash="18635123" _msthash="373">以修复错误。</font></li>
+<li><code>docs:</code><font _mstmutation="1" _msttexthash="50504948" _msthash="374">以获取对项目文档的更改。</font></li>
+<li><code>build:</code><font _mstmutation="1" _msttexthash="66844076" _msthash="375">了解与 GitHub 操作相关的任何内容。</font></li>
+<li><code>content:</code><font _mstmutation="1" _msttexthash="315347916" _msthash="376">对于对 lesson 和 helper 文本的更改，无论是更正拼写错误、添加新段落等等。</font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="22140560" _msthash="377">我们的工作方式</h3><a id="user-content-how-we-work" class="anchor" aria-label="永久链接：我们的工作方式" href="#how-we-work" _mstaria-label="414063" _msthash="378"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="701979967" _msthash="379">在审核您的更改时，我们可能会直接编辑您的代码以更快地合并它。这也是我们团队为了提高效率而做的事情。我们也可能要求更改。</p>
+<p dir="auto" _msttexthash="217876113" _msthash="380">最后，如果某些贡献对我们不起作用，<em _istranslated="1">我们可能会</em>关闭拉取请求。</p>
+<p dir="auto" _msttexthash="58044103" _msthash="381">这主要发生在两种情况下：</p>
+<ul dir="auto">
+<li _msttexthash="104822263" _msthash="382">这些更改没有回答我们创建或审查的问题。</li>
+<li _msttexthash="143013559" _msthash="383">拉取请求的作者在一个多月内没有进行请求的更改。</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="59052669" _msthash="384">在 Godot 中导入应用以做出贡献</h3><a id="user-content-importing-the-app-in-godot-to-contribute" class="anchor" aria-label="永久链接：在 Godot 中导入应用以做出贡献" href="#importing-the-app-in-godot-to-contribute" _mstaria-label="1736124" _msthash="385"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong _msttexthash="346798543" _msthash="386">警告：这不是运行应用程序进行学习的推荐方法。仅使用此函数来研究代码和做出贡献。</strong></p>
+<p dir="auto" _msttexthash="232202841" _msthash="387">你也可以通过克隆仓库并将文件夹导入引擎，直接在 Godot 中运行项目。</p>
+<p dir="auto" _msttexthash="680090229" _msthash="388">我们只建议在 Godot 中导入应用程序以研究其源代码或<a href="#how-to-contribute" _istranslated="1">做出贡献</a>。您将需要 <strong _istranslated="1">Godot 3.5 LTS</strong> 或更新的 Godot 3 稳定版本。否则，它不会运行。</p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="763336184" _msthash="389">请注意，与使用发布版本不同，练习错误将触发调试器并暂停 Godot 中的执行。这是正常的，当这种情况发生时，您需要按 continue 执行。</font><kbd>F7</kbd></p>
+</article></div>
